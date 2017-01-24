@@ -1,0 +1,8 @@
+Gestion des emprunts de livre
+
+- Afficher liste des livres en stock
+- Ajouter un livre en BDD
+- Modifier
+- Supprimer en BDD
+
+Utiliser le MVC
