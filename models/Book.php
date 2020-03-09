@@ -41,7 +41,7 @@ class Book
 
     public function getDb() {
         try {
-            $db = new PDO('mysql:host=localhost;dbname=BookRent', "root", "paris");
+            $db = new PDO('mysql:host=localhost;dbname=BookRent', "root", "");
         }
         catch (PDOException $e) {
             print "Erreur !: " . $e->getMessage() . "<br/>";
